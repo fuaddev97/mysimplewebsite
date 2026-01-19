@@ -53,11 +53,11 @@ body::after {
 
 .heading-logo {
     height: 35px;
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 600;
     position: relative;
     left: 50px;
-    bottom: 7px;
+    bottom: 9px;
 }
 
 .heading-sections {
@@ -66,7 +66,7 @@ body::after {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    right: 60px;
+    right: 50px;
 }
 
 button {
@@ -138,7 +138,7 @@ button:hover {
 
 .home, .about, .services, .contact, .feedback {
     height: 35px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: sans-serif;
     font-weight: 500;
     border: none;
@@ -153,13 +153,13 @@ button:hover {
         background-size: 1450px 1000px;
     }
     .home, .about, .services, .contact, .feedback {
-        font-size: 16px;
-        width: 90px;
+        font-size: 21px;
+        width: 95px;
     }
 
     .heading-logo {
-        font-size: 30px;
-        bottom: 5px;
+        font-size: 34px;
+        bottom: 9px;
     }
 
     .catch-phrase-1 {
@@ -184,13 +184,19 @@ button:hover {
     }
 
     .home, .about, .services, .contact, .feedback {
-        font-size: 14px;
-        width: 80px;
+        font-size: 19px;
+        width: 90px;
     }
 
     .heading-logo {
-        font-size: 26px;
-        bottom: 3px;
+        font-size: 34px;
+        left: 45px;
+        bottom: 9px;
+    }
+
+    .heading-sections {
+        width: 57%;
+        right: 45px;
     }
 
     .catch-phrase-1 {
@@ -215,13 +221,19 @@ button:hover {
     }
 
     .home, .about, .services, .contact, .feedback {
-        font-size: 12px;
-        width: 70px;
+        font-size: 17px;
+        width: 80px;
     }
 
     .heading-logo {
-        font-size: 23px;
-        bottom: 0;
+        font-size: 33px;
+        left: 30px;
+        bottom: 8px;
+    }
+
+    .heading-sections {
+        width: 60%;
+        right: 30px;
     }
 
     .catch-phrase-1 {
@@ -246,17 +258,61 @@ button:hover {
     }
 
     .home, .about, .services, .contact, .feedback {
-        font-size: 10px;
-        width: 60px;
+        font-size: 16px;
+        left: 30px;
+        width: 70px;
     }
 
     .heading-logo {
-        font-size: 18px;
-        bottom: -2px;
+        font-size: 32px;
+        left: 30px;
+        bottom: 8px;
+    }
+
+    .heading-sections {
+        width: 60%;
+        right: 30px;
     }
 
     .catch-phrase-1 {
         font-size: 26px;
+    }
+
+    .catch-phrase-2 {
+        font-size: 22px;
+    }
+
+    .learn-more, .subscribe {
+        font-size: 10px;
+        width: 110px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 550px) {
+    body {
+        background-position: top -100px left -190px;
+        background-size: 1200px 900px;
+    }
+
+    .home, .about, .services, .contact, .feedback {
+        font-size: 13px;
+        width: 70px;
+    }
+
+    .heading-logo {
+        font-size: 30px;
+        left: 20px;
+        bottom: 8px;
+    }
+
+    .heading-sections {
+        width: 60%;
+        right: 20px;
+    }
+
+    .catch-phrase-1 {
+        font-size: 25px;
     }
 
     .catch-phrase-2 {
